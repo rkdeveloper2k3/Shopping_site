@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>E-Commerce</title>
+    <link rel="icon" href="RK.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Add CSS styles for the slideshow container and images */
+        .slideshow-container {
+            max-width: 1000px;
+            position: relative;
+            margin: auto;
+        }
+
+        .mySlides {
+            display: none;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="about.html"> About Us</a></li>
+            <li><a href="contact.html">Contact us</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <p>welcome</p>
+        <h1 class="head1">Let's explore!</h1>
+        <div class="navbar"></div>
+    </div>
+    
+    <div class="slideshow-container">
+        <div class="mySlides fade" style="width:500px; height: 400px; margin-left: 350px;">
+            <img src="14_PRO-removebg-preview.png" style="width: 90%; height: 100%">
+        </div>
+        
+        <div class="mySlides fade" style="width:500px; height: 400px; margin-left: 350px;">
+            <img src="S23_ULTRA-removebg-preview.png"style="width: 100%; height: 100%">
+        </div>
+        
+        <div class="mySlides fade" style="width:500px; height: 400px; margin-left: 350px;">
+            <img src="pixel-removebg-preview.png" style="width: 100%; height: 100%">
+        </div>
+    </div>
+
+    
+    <div class="row">
+        <div class="col-2">
+            <h1 class="style"><em>STYLE IS THE WAY TO SAY WHO YOU ARE</em></h1>
+            <a href="explore.html" class="btn">EXPLORE NOW</a>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Our Online Store. All rights reserved.</p>
+    </footer>
+
+    <script>
+        let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    let i;
+    const slides = document.getElementsByClassName("mySlides");
+
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+
+    slideIndex++;
+
+    if (slideIndex > slides.length) {
+        slideIndex = 1;
+    }
+
+    slides[slideIndex - 1].style.display = "block";
+
+    setTimeout(showSlides, 2000);
+}
+    </script>
+</body>
+</html>

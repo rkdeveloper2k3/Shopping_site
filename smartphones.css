@@ -1,0 +1,63 @@
+.head{
+    font-family: cursive;
+    text-align: center;
+    text-decoration: wavy;
+    color: rgb(64, 65, 67);
+    background-image: background-image linear-gradient(red, yellow, blue);
+}
+body{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
+.iphone{
+    margin-left: 120px;
+}
+.irs{
+    margin-left: 150px;
+}
+.samrs{
+    margin-left: 120px;
+}
+.samsungrs{
+    margin-left: 150px;
+}
+.list{
+    display: flex;
+}
+.ipdetails{
+    display: flex;
+    margin-left: 100px;   
+}
+.infoip{
+   margin-top: 100px; 
+}
+
+.samsung{
+    margin-left: 120px;
+}
+.samdetails{
+    display: flex;
+    margin-left: 10px; 
+}
+.infosam{
+    margin: 10px;
+    margin-top: 90px;
+}
+.pixeldetails{
+    margin: 10px;
+    margin-top: 60px;
+    display: flex;
+}
+.pixirs{
+    margin-left: 150px;
+    align-items: center;
+    text-align: center;
+}
+.infopixel{
+    margin: 10px;
+    margin-top: 90px;
+}
+.pixel{
+    margin-left: 150px;
+    align-items: center;
+    text-align: center;
+}

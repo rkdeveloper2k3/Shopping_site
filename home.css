@@ -1,0 +1,42 @@
+.head{
+    text-align: center;
+    text-decoration: underline;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: linear-gradient(to bottom, #ff7f00, #ff5500);
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.rs{
+    text-align: center;
+    justify-content: center;
+    
+}
+.shoes{
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    align-items: center;
+}
+.p2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.pc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.pc1{
+    text-align: center;
+    justify-content: center;
+}
+body {
+    background: linear-gradient(to right, #ff7e5f, #feb47b, #f7d794, #f0ffab);
+}

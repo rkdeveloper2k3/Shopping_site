@@ -1,0 +1,50 @@
+body{
+    background: linear-gradient(to bottom, #888888, #ffffff);
+}
+.apple{
+    text-align: center;
+    font-size: large;
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+
+.coloumn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+.model{
+    margin-bottom: 300px;
+    margin-left: 50px;
+}
+.button{
+    margin-bottom: -900px;
+    margin-right: 150px;
+    margin-left: -500px;
+    size:0cqmax;
+    background-color: yellowgreen;
+    text-decoration-style: solid;
+    width: 150px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 19px;
+    border: none;
+    background-color: #eb1a1a
+}
+.cart{
+    margin-bottom: -200px;
+    margin-right: 150px;        
+    background-color: orangered;
+    text-decoration: solid;
+    width: 150px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 19px;
+    border: none;
+    transition: background-color 0.3s ease;
+    background-color: #2980b9
+
+}

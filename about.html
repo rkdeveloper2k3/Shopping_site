@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #e11b1b;
+            color: #000000;
+            text-align: center;
+            padding: 40px 0;
+            border-radius: 50px;
+        }
+        h1 {
+            margin: 0;
+            font-size: 36px;
+            font-family: cursive;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 50px;
+            font-style: italic;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .team-member {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            animation: forwards;
+        }
+        .team-member img {
+            max-width: 100px;
+            border-radius: 50%;
+            margin-right: 20px;
+            size: -200px;
+        }
+        .team-member h3 {
+            margin: 0;
+        }
+        @media (max-width: 768px) {
+            header {
+                padding: 20px 0;
+            }
+            h1 {
+                font-size: 28px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>About Us</h1>
+    </header>
+    <div class="container">
+        <h2>Our Story</h2>
+        <p>"Our story is rooted in our mission – to provide innovative solutions that empower our customers. Every chapter of our story is a testament to our commitment to excellence."
+        </p>
+        <h2>We</h2>
+        <div class="team-member">
+            <img src="msd.jpg" alt="Team Member 1">
+            <div>
+                <h3>Ms Dhoni</h3>
+                <p>founder and CEO</p>
+            </div>
+        </div>
+        <div class="team-member">
+            <img src="vijay.jpg_large" alt="Team Member 2">
+            <div>
+                <h3>Joseph vijay</h3>
+                <p>Marketing Director</p>
+            </div>
+        </div>
+        <!-- Add more team members as needed -->
+    </div>
+</body>
+</html>

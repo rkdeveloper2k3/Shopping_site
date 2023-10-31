@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Page</title>
+    <link rel="icon" href="R.png" type="image/x-icon">
+</head>
+<body>
+    <h1>Product Name: Example Product</h1>
+    <p>Price: $19.99</p>
+
+    <!-- Add to Cart Button -->
+    <button id="addToCartButton">Add to Cart</button>
+
+    <!-- Cart Counter -->
+    <div id="cartCounter">0</div>
+
+    <script>
+        // Initialize cart count
+        let cartCount = 0;
+
+        // Get the "Add to Cart" button element
+        const addToCartButton = document.getElementById("addToCartButton");
+
+        // Get the cart counter element
+        const cartCounter = document.getElementById("cartCounter");
+
+        // Add a click event listener to the "Add to Cart" button
+        addToCartButton.addEventListener("click", () => {
+            // Increment the cart count
+            cartCount++;
+
+            // Update the cart counter
+            cartCounter.textContent = cartCount;
+        });
+    </script>
+</body>
+</html>
